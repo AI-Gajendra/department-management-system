@@ -1,0 +1,29 @@
+Title: "Web Based Department Management System" .
+Front-end Technologies: HTML, CSS, BOOTSTRAP, JAVASCRIPT, JQUERY .
+Back-end Technologies : PHP, MYSQL .
+1.		ADMIN PAGES
+1  	Home 
+
+2		Admin Login
+
+3		Admin View & Edit Details
+4		Admin Notice
+5		Admin Update Notices
+6		Admin Insert Course
+7		Admin Update Course
+8		Admin  Students:
+9		Adin Add  Student
+10 	Admin Update Student 
+11 	Admin  Teacher	
+12	Admin Insert Teacher	
+13		Admin Update Teacher	
+14		Admin Session Teacher	
+15		Admin Manage Student’s Result
+16		Admin View Annual Report	
+17		Admin Search Students	
+2.		STUDENT PAGES:-
+Student Login
+Student Dashboard
+Student View & Edit Profile
+Student View Result
+Student Result Download
