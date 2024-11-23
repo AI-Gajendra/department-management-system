@@ -1,72 +1,98 @@
-# Department Management System  
+# Web-Based Department Management System  
 
-A comprehensive web application designed to manage departments, employees, and administrative tasks efficiently. This system streamlines workflows, ensures data organization, and enhances productivity within an organization.  
+A comprehensive web-based application designed to efficiently manage departmental operations for educational institutions. This system facilitates role-based access for administrators and students, providing features for course management, student performance tracking, and more.  
 
-## Features  
+---
 
-- **Department Management**: Add, edit, and delete departments.  
-- **Employee Management**: Manage employee records, including personal and professional details.  
-- **User Authentication**: Secure login and role-based access control for administrators and employees.  
-- **Dashboard**: A user-friendly interface to monitor system performance and activities.  
-- **Data Analytics**: Generate insights and reports for better decision-making.  
+## 🚀 Features  
 
-## Technologies Used  
+### Admin Pages  
+1. **Home**  
+   Admin dashboard to access key functionalities.  
+2. **Admin Login**  
+   ![Admin Login](https://github.com/kanishka831/department-management-system/assets/156570435/2939182d-8dd1-4759-bfe0-02fbe2ea6d95)  
+3. **View & Edit Details**  
+   Manage and update admin details.  
+4. **Notice Management**  
+   - View notices.  
+   - Update notices.  
+5. **Course Management**  
+   - Insert new courses.  
+   - Update existing courses.  
+6. **Student Management**  
+   - Add students.  
+   - Update student details.  
+   - Search for students.  
+7. **Teacher Management**  
+   - Add teachers.  
+   - Update teacher details.  
+   - Assign sessions to teachers.  
+8. **Result Management**  
+   - Manage and view students’ results.  
+   - Generate annual reports.  
 
-- **Frontend**:  
-  - HTML, CSS, JavaScript  
-  - Frameworks: [React.js/Vue.js/Other] (if applicable)  
+### Student Pages  
+1. **Student Login**  
+   Secure login portal for students.  
+2. **Student Dashboard**  
+   Personalized dashboard with quick access to features.  
+3. **Profile Management**  
+   View and edit personal details.  
+4. **Result Management**  
+   - View academic results.  
+   - Download results for offline access.  
 
-- **Backend**:  
-  - Node.js/Express.js/Django/Other (specify the backend framework you used)  
+---
 
-- **Database**:  
-  - MySQL/PostgreSQL/MongoDB (specify the database)  
+## 🛠️ Technologies  
 
-- **Other Tools**:  
-  - [Mention any other tools like Docker, Redis, etc., if used]  
+### Front-End  
+- **HTML**: Structure and layout of the application.  
+- **CSS**: Styling and design.  
+- **Bootstrap**: Responsive design.  
+- **JavaScript**: Interactive elements.  
+- **jQuery**: Simplified scripting for dynamic functionality.  
 
-## Installation  
+### Back-End  
+- **PHP**: Server-side scripting.  
+- **MySQL**: Database management.  
 
-### Steps  
+---
+
+## 📂 Project Structure  
+
+The project is organized into various modules to ensure scalability and ease of maintenance. Each module handles specific functionalities like user authentication, data management, and reporting.  
+
+---
+
+## 📷 Screenshots  
+
+### Admin Login  
+![Admin Login](https://github.com/kanishka831/department-management-system/assets/156570435/2939182d-8dd1-4759-bfe0-02fbe2ea6d95)  
+
+---
+
+## 📋 Installation  
 
 1. Clone the repository:  
    ```bash  
    git clone https://github.com/kanishka831/department-management-system.git  
+   ```  
+2. Navigate to the project directory:  
+   ```bash  
    cd department-management-system  
    ```  
+3. Configure the database:  
+   - Create a MySQL database.  
+   - Import the provided SQL file to set up the tables.  
 
-2. Install dependencies:  
-   ```bash  
-   npm install  
+4. Update the database connection in the backend files.  
+
+5. Start a local server (e.g., XAMPP or WAMP).  
+
+6. Open the application in a browser:  
+   ```  
+   http://localhost/department-management-system  
    ```  
 
-3. Set up the environment variables:  
-   - Create a `.env` file in the root directory.  
-   - Add the following variables:  
-     ```env  
-     DB_HOST=<your-database-host>  
-     DB_USER=<your-database-username>  
-     DB_PASSWORD=<your-database-password>  
-     DB_NAME=<your-database-name>  
-     ```  
-
-4. Initialize the database:  
-   ```bash  
-   npm run migrate  
-   ```  
-
-5. Start the development server:  
-   ```bash  
-   npm run dev  
-   ```  
-
-6. Open your browser and navigate to:  
-   ```
-   http://localhost:3000  
-   ```  
-
-## Usage  
-
-- **Administrator**: Manage departments, employees, and system settings.  
-- **Employee**: View assigned tasks, update personal information.  
-
+---
